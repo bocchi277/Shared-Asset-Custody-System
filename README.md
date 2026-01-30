@@ -1,21 +1,27 @@
-# Shared-Asset-Custody-System
-A web-based system to track ownership, transfer history, and availability of shared organizational assets (laptops, cameras, tools, devices, etc.).
-This project focuses on clarity, accountability, and auditability of shared assets.
+# 📦 Shared Asset Custody System
 
-PPROJECT STRUCTURE
+> A web-based system to track ownership, transfer history, and availability of shared organizational assets (laptops, cameras, tools, devices, etc.).
 
+This project focuses on the **clarity**, **accountability**, and **auditability** of shared assets, replacing manual spreadsheets with a robust database-backed application.
+
+---
+
+## 📂 Project Structure
+
+```text
 DigiProject/
 │
-├── app.py
-├── config.py
-├── extensions.py
-├── seed.py
+├── app.py                # Application entry point
+├── config.py             # Configuration settings
+├── extensions.py         # DB and Migration extensions
+├── seed.py               # Script to populate dummy data
 │
-├── models/
-├── services/
-├── routes/
-├── templates/
-└── static/
+├── models/               # Database models (User, Asset, Assignment)
+├── services/             # Business logic layer
+├── routes/               # API and UI routes
+├── templates/            # HTML templates
+└── static/               # CSS and assets
+```
 
 Setup Instructions (Run Locally)
 1. Clone the Repository
