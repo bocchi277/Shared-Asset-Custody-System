@@ -1,4 +1,4 @@
-# 📦 Shared Asset Custody System
+# Shared Asset Custody System
 
 > A web-based system to track ownership, transfer history, and availability of shared organizational assets (laptops, cameras, tools, devices, etc.).
 
@@ -90,7 +90,7 @@ Open your browser and navigate to: `http://127.0.0.1:5000`
 
 ---
 
-## 🛠️ System Design Decisions
+## System Design Decisions
 
 This project was built with a focus on system integrity rather than just features.
 
@@ -106,10 +106,10 @@ This project was built with a focus on system integrity rather than just feature
 
 To maintain focus on core custody tracking and accountability, the following were intentionally **excluded**:
 
-* ❌ Notifications (Email/SMS)
-* ❌ Predictive Maintenance
-* ❌ Advanced Search/Filtering
-* ❌ Authentication (Login/Signup)
+* Notifications (Email/SMS)
+* Predictive Maintenance
+* Advanced Search/Filtering
+* Authentication (Login/Signup)
 
 ---
 
