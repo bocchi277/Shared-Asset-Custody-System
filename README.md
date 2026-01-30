@@ -3,24 +3,25 @@ A web-based system to track ownership, transfer history, and availability of sha
 This project focuses on clarity, accountability, and auditability of shared assets.
 
 PPROJECT STRUCTURE
-  DigiProject/
-  │
-  ├── app.py
-  ├── config.py
-  ├── extensions.py
-  ├── seed.py
-  │
-  ├── models/
-  ├── services/
-  ├── routes/
-  ├── templates/
-  └── static/
+
+DigiProject/
+│
+├── app.py
+├── config.py
+├── extensions.py
+├── seed.py
+│
+├── models/
+├── services/
+├── routes/
+├── templates/
+└── static/
 
 Setup Instructions (Run Locally)
 1. Clone the Repository
 #USE THIS CODE
-  git clone <repo-link>
-  cd DigiProject
+git clone <repo-link>
+cd DigiProject
 
 3. Create Virtual Environment
 python -m venv venv
